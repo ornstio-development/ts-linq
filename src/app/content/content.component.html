@@ -1,0 +1,13 @@
+<div class="group" *ngFor="let group of groups">
+  <h3 [id]="group">{{ group }}</h3>
+  <ul class="menu-item" *ngFor="let item of menuItems[group]">
+    <li id="{{ group }}.{{ item.name }}">
+      <p>{{ item.name }}</p>
+      <p class="subtitle" [innerHTML]="item.description"></p>
+      <pre *ngFor="let func of item.funcs">
+            <code class="lang-typescript" [innerHTML]="format(func.toString())"></code>
+            <code>= {{func()}}</code>
+    </pre>
+    </li>
+  </ul>
+</div>

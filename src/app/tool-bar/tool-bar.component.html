@@ -1,0 +1,10 @@
+<div class="group" *ngFor="let group of groups">
+  <h3>
+    <a href="#{{ group }}">{{ group }}</a>
+  </h3>
+  <ul class="menu-item" *ngFor="let item of menuItems[group]">
+    <li>
+      <a href="#{{ group }}.{{ item.name }}">{{ item.name }}</a>
+    </li>
+  </ul>
+</div>

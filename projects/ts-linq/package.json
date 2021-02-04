@@ -1,0 +1,29 @@
+{
+  "name": "@ornstio/ts-linq",
+  "version": "0.0.10",
+  "peerDependencies": {},
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "description": "Adds LINQ-like typed extensions to Typescript arrays",
+  "main": "index.ts",
+  "scripts": {
+    "test": "ng test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ornstio-development/ts-linq.git"
+  },
+  "keywords": [
+    "ts",
+    "typescript",
+    "linq",
+    "array"
+  ],
+  "author": "ornstio.development",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ornstio-development/ts-linq/issues"
+  },
+  "homepage": "https://ts-linq.ornstio.com"
+}

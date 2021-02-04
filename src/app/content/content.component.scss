@@ -1,0 +1,20 @@
+:host {
+  overflow-y: scroll;
+  padding: 0 16px;
+}
+
+.subtitle {
+  color: #4c4c4c;
+  font-size: 12px;
+  white-space: pre-line;
+}
+
+pre {
+  margin: 0;
+  code {
+    padding: 0;
+  }
+  &:not(:last-child) {
+    border-bottom: 1px solid #d8d8d8;
+  }
+}

@@ -1,0 +1,18 @@
+:host {
+  display: flex;
+  overflow: hidden;
+
+  .header {
+    text-align: center;
+    box-shadow: 20px -10px 10px -16px #ccc;
+  }
+
+  app-tool-bar {
+    box-shadow: 20px -10px 10px -16px #ccc;
+    overflow-y: scroll;
+  }
+
+  app-content {
+    flex: 1;
+  }
+}
